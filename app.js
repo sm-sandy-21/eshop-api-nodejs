@@ -22,6 +22,8 @@ app.use(errorHandeler)
 app.use(`${api}/products`,require('./routers/productRoute'))
 app.use(`${api}/categories`,require('./routers/categoryRoute'))
 app.use(`${api}/users`,require('./routers/userRoute'))
+app.use(`${api}/order`,require('./routers/orderRoute'))
+
 
 
 
